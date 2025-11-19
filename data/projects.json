@@ -1,0 +1,50 @@
+{
+  "sv": [
+    {
+      "title": "Fullstack Projekt",
+      "description": "En webbplats för en samfällighetsförening med publicering av evenemang, dokumentdelning och medlemsautentisering.",
+      "image": "/projects/samfallighet.jpg",
+      "tags": ["Next.js", "React", "TypeScript", "TailwindCSS", "Payload CMS", "MongoDB"],
+      "url": "https://kaprifolenviken.se"
+    },
+    {
+      "title": "Last Ball Standing",
+      "description": "Ett enkelt webbaserat spel byggt med Next.js. Användaren kan välja antal spelare och antal nummer per spelare, generera nummer och visa resultat. Projektet visar en grundläggande men flexibel spelmekanik och interaktion.",
+      "image": "/projects/last-ball-standing.jpg",
+      "tags": ["Next.js", "React", "TypeScript", "TailwindCSS"],
+      "url": "https://nextjs-boilerplate-tau-olive-91.vercel.app/",
+      "github": "https://github.com/zackforssberg/pool-game"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "En minimalistisk portfolio-webbplats med smooth animations och modern design. Fokus på mjuka övergångar och praktiska features, som darkmode och översättning.",
+      "image": "/projects/portfolio.jpg",
+      "tags": ["Next.js", "React", "Framer Motion", "TypeScript", "TailwindCSS"],
+      "url": "https://zackforssberg.com"
+    }
+  ],
+  "en": [
+    {
+      "title": "Fullstack Project",
+      "description": "A website for a housing association featuring event publishing, document sharing, and member authentication.",
+      "image": "/projects/samfallighet.jpg",
+      "tags": ["Next.js", "React", "TypeScript", "TailwindCSS", "Payload CMS", "MongoDB"],
+      "url": "https://kaprifolenviken.se"
+    },
+    {
+      "title": "Last Ball Standing",
+      "description": "A simple web-based game built with Next.js. Users can select the number of players and how many numbers each player gets, generate numbers, and display the results. The project demonstrates a basic but flexible game mechanic and interaction.",
+      "image": "/projects/last-ball-standing.jpg",
+      "tags": ["Next.js", "React", "TypeScript", "TailwindCSS"],
+      "url": "https://nextjs-boilerplate-tau-olive-91.vercel.app/",
+      "github": "https://github.com/zackforssberg/pool-game"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "A minimalist portfolio website with smooth animations and modern design. Focus on soft transitions and practical features, such as dark mode and translation.",
+      "image": "/projects/portfolio.jpg",
+      "tags": ["Next.js", "React", "Framer Motion", "TypeScript", "TailwindCSS"],
+      "url": "https://zackforssberg.com"
+    }
+  ]
+}

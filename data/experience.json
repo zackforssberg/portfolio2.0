@@ -1,0 +1,66 @@
+{
+  "sv": [
+    {
+      "year": "Just nu",
+      "title": "Webbutvecklare",
+      "company": "Kunduppdrag (Egen verksamhet)",
+      "description": "Bygger en komplett och modern webbplats åt kund med Next.js, React, TypeScript och TailwindCSS. Implementerar Payload CMS som headless-lösning samt använder Docker för lokal utveckling med MongoDB. Har även satt upp en VPS-lösning för hosting av både webbplats och databas."
+    },
+    {
+      "year": "2024 - 2025",
+      "title": "Frontendutvecklare (LIA)",
+      "company": "Volvo Cars",
+      "description": "Arbetade i en agil miljö och bidrog till utvecklingen av skalbara och användarvänliga lösningar för företagets webb. Använde Next.js, React och TypeScript i dagligt arbete och fick praktisk erfarenhet av att arbeta i ett större utvecklingsteam."
+    },
+    {
+      "year": "2023 - 2025",
+      "title": "Frontendutbildning",
+      "company": "IT-Högskolan",
+      "description": "Studerade frontendutveckling med fokus på moderna tekniker som React, Next.js, TypeScript, headless CMS, UX-design, databaser, Docker och agila arbetsmetoder."
+    },
+    {
+      "year": "2023",
+      "title": "Solcellsmontör",
+      "company": "Wettersol AB",
+      "description": "Arbetade praktiskt med installation av solcellsanläggningar. Utvecklade god samarbetsförmåga och noggrannhet i olika typer av projekt."
+    },
+    {
+      "year": "2022 - 2023",
+      "title": "Solcellsmontör",
+      "company": "Svea Solar",
+      "description": "Ansvarade för montering av solcellssystem och arbete på plats hos kunder. Lärde mig arbeta strukturerat och lösningsorienterat i fält."
+    }
+  ],
+  "en": [
+    {
+      "year": "Currently",
+      "title": "Web Developer",
+      "company": "Client Project (Self-employed)",
+      "description": "Building a complete and modern website for a client using Next.js, React, TypeScript, and TailwindCSS. Implementing Payload CMS as a headless solution and using Docker for local development with MongoDB. Additionally set up a VPS for hosting both the website and database."
+    },
+    {
+      "year": "2024 - 2025",
+      "title": "Frontend Developer (Internship)",
+      "company": "Volvo Cars",
+      "description": "Worked in an agile environment, contributing to scalable and user-friendly web solutions. Used Next.js, React, and TypeScript daily while gaining hands-on experience collaborating with a larger development team."
+    },
+    {
+      "year": "2023 - 2025",
+      "title": "Frontend Development Education",
+      "company": "IT-Högskolan",
+      "description": "Studied frontend development with focus on modern technologies such as React, Next.js, TypeScript, headless CMS, UX design, databases, Docker, and agile methodologies."
+    },
+    {
+      "year": "2023",
+      "title": "Solar Panel Installer",
+      "company": "Wettersol AB",
+      "description": "Worked with the installation of solar panel systems. Developed strong teamwork and precision in project execution."
+    },
+    {
+      "year": "2022 - 2023",
+      "title": "Solar Panel Installer",
+      "company": "Svea Solar",
+      "description": "Responsible for on-site installation of solar systems. Learned to work systematically and solve problems efficiently in the field."
+    }
+  ]
+}

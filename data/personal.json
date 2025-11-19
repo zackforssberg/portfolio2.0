@@ -1,0 +1,40 @@
+{
+  "sv": {
+    "name": "Zack Forssberg",
+    "title": "Frontend Developer",
+    "about": "Jag bygger digitala upplevelser med nyfikenhet. Jag trivs bäst när jag får lösa problem, förbättra detaljer och skapa något som känns genomtänkt.",
+    "profileImage": "/profile.jpg",
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/zackforssberg",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zack-forssberg-9b9711289/",
+        "icon": "linkedin"
+      }
+    ],
+    "email": "zack.forssberg@gmail.com"
+  },
+  "en": {
+    "name": "Zack Forssberg",
+    "title": "Frontend Developer",
+    "about": "I build digital experiences with curiosity. I thrive when solving problems, refining details, and creating something that feels truly thoughtful.",
+    "profileImage": "/profile.jpg",
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/zackforssberg",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zack-forssberg-9b9711289/",
+        "icon": "linkedin"
+      }
+    ],
+    "email": "zack.forssberg@gmail.com"
+  }
+}
