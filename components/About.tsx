@@ -9,7 +9,7 @@ export default function About() {
   const { personal } = useContent();
   const { t } = useLanguage();
   
-  const highlights = t("about.highlights") as string[];
+  const highlights = t("about.highlights") as unknown as string[];
 
   return (
     <SectionWrapper id="about" className="py-section">
