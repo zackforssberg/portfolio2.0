@@ -12,7 +12,7 @@
       "description": "Ett enkelt webbaserat spel byggt med Next.js. Användaren kan välja antal spelare och antal nummer per spelare, generera nummer och visa resultat. Projektet visar en grundläggande men flexibel spelmekanik och interaktion.",
       "image": "/projects/last-ball-standing.jpg",
       "tags": ["Next.js", "React", "TypeScript", "TailwindCSS"],
-      "url": "https://nextjs-boilerplate-tau-olive-91.vercel.app/",
+      "url": "https://pool.zackforssberg.se",
       "github": "https://github.com/zackforssberg/pool-game"
     },
     {
@@ -36,7 +36,7 @@
       "description": "A simple web-based game built with Next.js. Users can select the number of players and how many numbers each player gets, generate numbers, and display the results. The project demonstrates a basic but flexible game mechanic and interaction.",
       "image": "/projects/last-ball-standing.jpg",
       "tags": ["Next.js", "React", "TypeScript", "TailwindCSS"],
-      "url": "https://nextjs-boilerplate-tau-olive-91.vercel.app/",
+      "url": "https://pool.zackforssberg.se",
       "github": "https://github.com/zackforssberg/pool-game"
     },
     {
