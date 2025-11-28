@@ -2,7 +2,7 @@
   "sv": [
     {
       "title": "Fullstack Projekt",
-      "description": "En webbplats för en samfällighetsförening med publicering av evenemang, dokumentdelning och medlemsautentisering.",
+      "description": "En webbplats för en samfällighetsförening med publicering av evenemang, dokumentdelning och hantering av medlemskonton.",
       "image": "/projects/samfallighet.jpg",
       "tags": ["Next.js", "React", "TypeScript", "TailwindCSS", "Payload CMS", "MongoDB"],
       "url": "https://kaprifolenviken.se"

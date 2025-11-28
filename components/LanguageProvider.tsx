@@ -59,7 +59,7 @@ const translations = {
     contact: {
       title: "Kontakt",
       description:
-        "Har du ett projekt i åtanke eller vill bara säga hej? Hör gärna av dig!",
+        "Har du ett projekt i åtanke eller vill du bara säga hej? Hör gärna av dig!",
       sendMessage: "Skicka ett meddelande",
     },
   },
