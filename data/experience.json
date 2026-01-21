@@ -2,9 +2,9 @@
   "sv": [
     {
       "year": "Just nu",
-      "title": "Webbutvecklare",
-      "company": "Kunduppdrag (Egen verksamhet)",
-      "description": "Bygger en komplett och modern webbplats åt kund med Next.js, React, TypeScript och TailwindCSS. Implementerar Payload CMS som headless-lösning samt använder Docker för lokal utveckling med MongoDB. Har även satt upp en VPS-lösning för hosting av både webbplats och databas."
+      "title": "Ai agent- och automationsutvecklare | Webbutvecklare",
+      "company": "Egen verksamhet",
+      "description": "Bygger AI-agenter och AI-automationer som effektiviserar processer och sparar tid. Utvecklar skräddarsydda webbplatslösningar med fokus på prestanda, SEO och användarvänlighet."
     },
     {
       "year": "2024 - 2025",
@@ -34,9 +34,9 @@
   "en": [
     {
       "year": "Currently",
-      "title": "Web Developer",
-      "company": "Client Project (Self-employed)",
-      "description": "Building a complete and modern website for a client using Next.js, React, TypeScript, and TailwindCSS. Implementing Payload CMS as a headless solution and using Docker for local development with MongoDB. Additionally set up a VPS for hosting both the website and database."
+      "title": "AI Agent & Automation Developer | Web Developer",
+      "company": "Self-employed",
+      "description": "Building AI agents and AI automations that streamline processes and save time. Developing custom website solutions with a strong focus on performance, SEO, and usability."
     },
     {
       "year": "2024 - 2025",
