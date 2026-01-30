@@ -1,7 +1,12 @@
 {
   "sv": {
     "name": "Zack Forssberg",
-    "title": "Frontend Developer",
+    "titles": [
+      "Frontend Utvecklare",
+      "Ai Agent Utvecklare",
+      "Webbutvecklare",
+      "Ai Automationsutvecklare"
+    ],
     "about": "Jag bygger AI-lösningar, automationer och webbupplevelser med fokus på verklig affärsnytta. Jag drivs av problemlösning, smarta detaljer och att skapa lösningar som faktiskt används.",
     "profileImage": "/profile.jpg",
     "socials": [
@@ -20,7 +25,12 @@
   },
   "en": {
     "name": "Zack Forssberg",
-    "title": "Frontend Developer",
+    "titles": [
+      "Frontend Developer",
+      "Ai Agent Developer",
+      "Web Developer",
+      "Ai Automation Developer"
+    ],
     "about": "I build AI solutions, automations, and web experiences with a focus on real business value. I’m driven by problem-solving, smart details, and creating solutions that actually get used.",
     "profileImage": "/profile.jpg",
     "socials": [

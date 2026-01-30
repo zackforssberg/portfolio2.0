@@ -1,6 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useContent } from "@/hooks/useContent";
 import { useLanguage } from "./LanguageProvider";
@@ -9,6 +10,19 @@ import SectionWrapper from "./SectionWrapper";
 export default function Hero() {
   const { personal } = useContent();
   const { t } = useLanguage();
+  const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
+
+  const titles = personal.titles || [];
+
+  useEffect(() => {
+    if (titles.length === 0) return;
+
+    const interval = setInterval(() => {
+      setCurrentTitleIndex((prevIndex) => (prevIndex + 1) % titles.length);
+    }, 3500);
+
+    return () => clearInterval(interval);
+  }, [titles.length]);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -66,14 +80,20 @@ export default function Hero() {
               {t("hero.greeting")}{" "}
               <span className="text-accent">{personal.name}</span>
             </motion.h1>
-            <motion.p
-              className="text-2xl md:text-3xl text-secondary"
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-            >
-              {personal.title}
-            </motion.p>
+            <div className="text-2xl md:text-3xl text-secondary h-[1.2em] relative overflow-hidden">
+              <AnimatePresence mode="wait">
+                <motion.p
+                  key={currentTitleIndex}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.5, ease: "easeInOut" }}
+                  className="absolute inset-0"
+                >
+                  {titles[currentTitleIndex] || ""}
+                </motion.p>
+              </AnimatePresence>
+            </div>
           </motion.div>
 
           <motion.p
