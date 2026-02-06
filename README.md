@@ -1,217 +1,122 @@
-# Portfolio Website v3
+# Portfolio Website
 
-En modern, minimalistisk portfolio-webbplats byggd med Next.js, React, TypeScript, TailwindCSS och Framer Motion.
+A modern, minimalist portfolio website built with Next.js, React, TypeScript, TailwindCSS, and Framer Motion.  
+The site supports **light/dark mode**, **Swedish/English language toggle**, and **JSON‑driven content**.
 
-## 🚀 Funktioner
+## 🚀 Features
 
-- **Next.js App Router** - Modern routing och server-side rendering
-- **TypeScript** - Typsäker kod
-- **TailwindCSS** - Utility-first CSS med custom theme
-- **Framer Motion** - Smooth animationer och micro-interactions
-- **Dark/Light Mode** - Mjuka övergångar mellan teman
-- **Responsiv Design** - Fungerar på alla enheter
-- **JSON-baserat innehåll** - Allt innehåll styrs via JSON-filer
-- **Smooth Scroll Navigation** - Navigation till vänster (desktop) och botten (mobil) som länkar till sektioner
+- **Next.js App Router (Next 14)** – Modern routing and server‑side rendering
+- **React 18 + TypeScript** – Type‑safe, modern React setup
+- **TailwindCSS 3** – Utility‑first styling with a custom design system
+- **Framer Motion** – Smooth animations and micro‑interactions
+- **Light/Dark mode** – Theme toggle with animated transitions
+- **Swedish/English support** – Language toggle powered by a custom `LanguageProvider`
+- **Responsive design** – Looks great on desktop, tablet, and mobile
+- **JSON‑based, localized content** – All text content is managed via JSON files
+- **Smooth scrolling** – Buttons in the hero section smoothly scroll to key sections
 
-## 📁 Projektstruktur
+## 📁 Project structure
 
-```
+```text
 portfolio-v3/
 ├── app/
-│   ├── globals.css          # Globala styles
-│   ├── layout.tsx           # Root layout
-│   └── page.tsx             # Huvudsida
+│   ├── globals.css           # Global styles
+│   ├── layout.tsx            # Root layout
+│   └── page.tsx              # Main page
 ├── components/
-│   ├── About.tsx            # Om mig-sektion
-│   ├── Contact.tsx          # Kontakt och footer
-│   ├── Experience.tsx       # Erfarenhet/timeline
-│   ├── Hero.tsx             # Hero-sektion
-│   ├── Projects.tsx         # Projekt-grid
-│   ├── SectionWrapper.tsx   # Wrapper för sektioner
-│   ├── SidebarNavigation.tsx # Vänstersidig navigation (desktop)
-│   ├── MobileNavigation.tsx  # Bottennavigation (mobil)
-│   └── ThemeProvider.tsx    # Theme context provider
+│   ├── About.tsx             # About section
+│   ├── Contact.tsx           # Contact/footer section
+│   ├── Experience.tsx        # Experience / timeline section
+│   ├── Hero.tsx              # Hero section
+│   ├── Projects.tsx          # Projects grid
+│   ├── SectionWrapper.tsx    # Shared wrapper for sections with IDs
+│   ├── ThemeProvider.tsx     # Theme (light/dark) context provider
+│   ├── LanguageProvider.tsx  # Language (sv/en) context provider & translations
+│   ├── TopControls.tsx       # Floating theme + language toggle buttons
+│   └── HtmlLangUpdater.tsx   # Syncs document <html lang="...">
 ├── data/
-│   ├── experience.json      # Erfarenhetsdata
-│   ├── personal.json        # Personlig information
-│   └── projects.json        # Projektdata
+│   ├── experience.json       # Experience data (sv/en)
+│   ├── personal.json         # Personal info (sv/en)
+│   └── projects.json         # Project data (sv/en)
 └── public/
-    ├── profile.jpg          # Profilbild
-    └── projects/            # Projektbilder
+    ├── profile.jpg           # Profile image
+    └── projects/             # Project images
 ```
 
-## 🛠️ Installation
+## 🛠️ Getting started
 
-1. **Installera dependencies:**
+1. **Install dependencies**
+
    ```bash
    npm install
    ```
 
-2. **Kör utvecklingsservern:**
+2. **Run the development server**
+
    ```bash
    npm run dev
    ```
 
-3. **Öppna i webbläsaren:**
-   Navigera till [http://localhost:3000](http://localhost:3000)
+3. **Open the app in your browser**
 
-## 📝 Redigera innehåll
+   Go to `http://localhost:3000`
 
-Allt innehåll styrs via JSON-filer i `data/`-mappen. Inget behöver ändras i komponenterna.
+> Recommended: use **Node 18+** (Next.js 14 requirement).
 
-### Personal Information (`data/personal.json`)
+## 📝 Editing content
 
-Redigera din personliga information:
+All user‑facing content is controlled via JSON files in the `data/` folder.  
+Each file is **localized**, with separate entries for Swedish (`sv`) and English (`en`).
+
+### Personal information (`data/personal.json`)
+
+Shape (simplified):
 
 ```json
 {
-  "name": "Ditt Namn",
-  "title": "Din Titel",
-  "about": "Din beskrivning...",
-  "profileImage": "/profile.jpg",
-  "email": "ditt.email@example.com",
-  "socials": [
-    {
-      "name": "GitHub",
-      "url": "https://github.com/dittanvändarnamn",
-      "icon": "github"
-    }
-  ]
-}
-```
-
-### Projekt (`data/projects.json`)
-
-Lägg till eller redigera projekt:
-
-```json
-[
-  {
-    "title": "Projektnamn",
-    "description": "Beskrivning av projektet...",
-    "image": "/projects/projektbild.jpg",
-    "tags": ["Next.js", "React", "TypeScript"],
-    "url": "https://projekt-url.com",
-    "github": "https://github.com/username/repo"
-  }
-]
-```
-
-### Erfarenhet (`data/experience.json`)
-
-Uppdatera din arbetslivserfarenhet:
-
-```json
-[
-  {
-    "year": "2024 - Nu",
-    "title": "Jobbtitel",
-    "company": "Företagsnamn",
-    "description": "Beskrivning av rollen..."
-  }
-]
-```
-
-## 🎨 Anpassa design
-
-### Färger
-
-Färger kan ändras i `tailwind.config.ts`:
-
-```typescript
-colors: {
-  accent: {
-    DEFAULT: "#dee041",  // Ändra accentfärg här
+  "sv": {
+    "name": "Your Name",
+    "titles": ["Frontendutvecklare", "Webbutvecklare"],
+    "about": "Short bio in Swedish...",
+    "profileImage": "/profile.jpg",
+    "email": "you@example.com",
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/your-username",
+        "icon": "github"
+      }
+    ]
   },
-  // ... andra färger
+  "en": {
+    "name": "Your Name",
+    "titles": ["Frontend Developer", "Web Developer"],
+    "about": "Short bio in English...",
+    "profileImage": "/profile.jpg",
+    "email": "you@example.com",
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/your-username",
+        "icon": "github"
+      }
+    ]
+  }
 }
 ```
+Update the fields under both `sv` and `en` to keep the two languages in sync.
+Use the same principal for both Projects (`data/projects.json`) and Experience (`data/experience.json`)
 
-### Navigation
+## 🔧 Tech stack
 
-Navigation-items kan ändras i `components/SidebarNavigation.tsx`:
-
-```typescript
-const navItems = [
-  { name: "Hem", href: "#hero" },
-  { name: "Om mig", href: "#about" },
-  // Lägg till fler items här
-];
-```
-
-## 🚢 Deployment på Vercel
-
-1. **Pusha koden till GitHub:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin <your-repo-url>
-   git push -u origin main
-   ```
-
-2. **Deploya på Vercel:**
-   - Gå till [vercel.com](https://vercel.com)
-   - Klicka på "New Project"
-   - Importera ditt GitHub-repo
-   - Vercel kommer automatiskt att detektera Next.js och konfigurera projektet
-   - Klicka på "Deploy"
-
-3. **Lägg till bilder:**
-   - Se till att alla bilder finns i `public/`-mappen
-   - Använd rätt sökvägar i JSON-filerna (t.ex. `/profile.jpg`)
-   - Om bilder saknas kommer komponenterna visa en fallback med initialer
-   - Rekommenderade bildstorlekar:
-     - Profilbild: 800x800px (kvadratisk)
-     - Projektbilder: 1200x600px (landscape)
-
-## 📦 Bygga för produktion
-
-```bash
-npm run build
-npm start
-```
-
-## 🎯 Lägga till nya sektioner
-
-1. **Skapa en ny komponent** i `components/` (t.ex. `Skills.tsx`)
-2. **Lägg till sektionen** i `app/page.tsx`:
-   ```tsx
-   import Skills from "@/components/Skills";
-   
-   // I return:
-   <Skills />
-   ```
-3. **Lägg till i navigationen** i `SidebarNavigation.tsx`:
-   ```typescript
-   { name: "Färdigheter", href: "#skills" }
-   ```
-4. **Använd SectionWrapper** i din nya komponent:
-   ```tsx
-   <SectionWrapper id="skills">
-     {/* Ditt innehåll */}
-   </SectionWrapper>
-   ```
-
-## 🔧 Teknisk stack
-
-- **Next.js 14** - React framework
-- **React 18** - UI library
-- **TypeScript** - Type safety
-- **TailwindCSS 3** - Styling
-- **Framer Motion** - Animationer
-- **ESLint** - Code linting
-- **Prettier** - Code formatting
-
-## 📄 Licens
-
-Detta projekt är öppet för användning och modifiering.
-
-## 🤝 Bidrag
-
-Förslag och förbättringar är välkomna! Skapa en issue eller pull request.
+- **Next.js 14** – React framework (App Router)
+- **React 18** – UI library
+- **TypeScript** – Type‑safe code
+- **TailwindCSS 3** – Styling
+- **Framer Motion** – Animations and transitions
+- **ESLint** – Code linting
+- **Prettier** – Code formatting
 
 ---
 
-Byggt med ❤️ med Next.js och Framer Motion
-
+Built with ❤️ using Next.js and Framer Motion.
