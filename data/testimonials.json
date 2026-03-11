@@ -1,0 +1,22 @@
+{
+  "sv": [
+    {
+      "name": "Alexander Lindberg",
+      "role": "Engineering Manager",
+      "company": "Volvo Cars",
+      "connection": "Tidigare chef",
+      "date": "Februari 2024",
+      "testimonial": "Det var ett rent nöje att ha Zack i teamet. Han tog sig an stora tekniska utmaningar med en imponerande entusiasm och bidrog med massor av positiv energi till gruppen. Han satte sig in i en enorm kodbas med bravur och lämnade efter sig kod som lever kvar i produktion än idag. Jag ger Zack mina varmaste rekommendationer!"
+    }
+  ],
+  "en": [
+    {
+      "name": "Alexander Lindberg",
+      "role": "Engineering Manager",
+      "company": "Volvo Cars",
+      "connection": "Former Manager",
+      "date": "February 2024",
+      "testimonial": "It was an absolute pleasure having Zack on the team. He tackled major technical challenges with impressive enthusiasm and brought a tremendous amount of positive energy to the group. He navigated an enormous codebase with ease and left behind code that is still running in production to this day. I give Zack my warmest recommendations!"
+    }
+  ]
+}
