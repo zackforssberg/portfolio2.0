@@ -62,6 +62,11 @@ const translations = {
         "Har du ett projekt i åtanke eller vill du bara säga hej? Hör gärna av dig!",
       sendMessage: "Skicka ett meddelande",
     },
+    services: {
+      cta: "Kontakta mig för ett prisförslag",
+      featuresTitle: "Vad ingår:",
+      learnMore: "Läs mer",
+    },
   },
   en: {
     nav: {
@@ -100,6 +105,11 @@ const translations = {
       description:
         "Have a project in mind or just want to say hi? I'd love to hear from you!",
       sendMessage: "Send a message",
+    },
+    services: {
+      cta: "Contact me for a quote",
+      featuresTitle: "What's included:",
+      learnMore: "Learn more",
     },
   },
 };

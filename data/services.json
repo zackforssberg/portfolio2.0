@@ -1,0 +1,90 @@
+{
+  "sv": {
+    "title": "Tjänster",
+    "subtitle": "Jag bygger tekniken som gör att du kan fokusera på det du gör bäst.",
+    "description": "Jag hjälper företag att framtidssäkra sin närvaro på nätet genom att kombinera modern webbutveckling med nästa generations AI. Som din partner inom både webb- och AI-utveckling bygger jag allt från stilrena landningssidor till komplexa, skräddarsydda fullstack-applikationer.",
+    "intro_ai": "Men jag nöjer mig inte med att bara skapa en snygg fasad. Jag implementerar smart AI-automatisering – såsom intelligenta chatbotar och agenter – som effektiviserar din vardag genom att hantera allt från dygnet-runt-kundtjänst till automatiserad mötesbokning.",
+    "items": [
+      {
+        "id": "web-dev",
+        "title": "Webbutveckling",
+        "description": "Från enkla landningssidor till avancerade fullstack-applikationer byggda med modern teknik.",
+        "icon": "code",
+        "features": [
+          "Responsiv design för alla enheter",
+          "Hög prestanda och SEO-optimering",
+          "Skräddarsydda funktioner",
+          "Modern stack (Next.js, React, TypeScript)"
+        ]
+      },
+      {
+        "id": "ai-automation",
+        "title": "AI & Automation",
+        "description": "Intelligenta lösningar som dygnet-runt-kundtjänst och automatiserad mötesbokning.",
+        "icon": "bot",
+        "features": [
+          "Anpassade AI-chatbotar",
+          "Automatisering av arbetsflöden",
+          "Intelligenta agenter",
+          "Mötesbokning & Kundservice"
+        ]
+      },
+      {
+        "id": "custom-software",
+        "title": "Skräddarsydd mjukvara",
+        "description": "Lösningar anpassade efter dina specifika affärsbehov och utmaningar.",
+        "icon": "layers",
+        "features": [
+          "Skalbara arkitekturer",
+          "Sömlösa integrationer",
+          "Användarvänliga gränssnitt",
+          "Långsiktig support & underhåll"
+        ]
+      }
+    ]
+  },
+  "en": {
+    "title": "Services",
+    "subtitle": "I build the technology that allows you to focus on what you do best.",
+    "description": "I help companies future-proof their online presence by combining modern web development with next-generation AI. As your partner in both web and AI development, I build everything from sleek landing pages to complex, customized fullstack applications.",
+    "intro_ai": "I don't just stop at creating a beautiful facade. I implement smart AI automation – such as intelligent chatbots and agents – that streamline your daily life by handling everything from 24/7 customer service to automated meeting booking.",
+    "items": [
+      {
+        "id": "web-dev",
+        "title": "Web Development",
+        "description": "From simple landing pages to advanced fullstack applications built with modern technology.",
+        "icon": "code",
+        "features": [
+          "Responsive design for all devices",
+          "High performance and SEO optimization",
+          "Customized features",
+          "Modern stack (Next.js, React, TypeScript)"
+        ]
+      },
+      {
+        "id": "ai-automation",
+        "title": "AI & Automation",
+        "description": "Intelligent solutions like 24/7 customer service and automated meeting booking.",
+        "icon": "bot",
+        "features": [
+          "Custom AI chatbots",
+          "Workflow automation",
+          "Intelligent agents",
+          "Meeting booking & Customer service"
+        ]
+      },
+      {
+        "id": "custom-software",
+        "title": "Custom Software",
+        "description": "Solutions tailored to your specific business needs and challenges.",
+        "icon": "layers",
+        "features": [
+          "Scalable architectures",
+          "Seamless integrations",
+          "User-friendly interfaces",
+          "Long-term support & maintenance"
+        ]
+      }
+    ]
+  }
+}
